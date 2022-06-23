@@ -6,16 +6,9 @@
 */
 
 :root {
-    --bg: linear-gradient(-90deg, #7e8592, #1b2029);
+    --bg: linear-gradient(-75deg, #7e8592, #1b2029);
     --bg-input: #4d4d50;
 }
-
-
-/*
-.light-mode {
-    --bg: #ffffff;
-    --bg-input: #c9c9c9;
-} */
 
 
 /* light mode edited */
@@ -28,8 +21,8 @@
 body {
     background: var(--bg);
     color: var(--color-text);
-    font-weight: 500;
-    display: flex;
+    /*font-weight: 500;
+    display: flex;*/
 }
 
 .switch {
